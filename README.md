@@ -25,4 +25,4 @@ Este tutorial aborda os principios básicos da linguagem, se estiver utilizando 
 
 ### Partiu Programar !!!!
 
-![](https://github.com/fabriciocovalesci/Tutorial-Swift/issues/1)
+https://github.com/fabriciocovalesci/Tutorial-Swift/issues/1#issue-516610420
