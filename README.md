@@ -11,7 +11,7 @@ Este tutorial aborda os principios básicos da linguagem, se estiver utilizando 
 
 2. sudo apt-get install libcurl3 libpython2.7 libpython2.7-dev 
 
-3. wget https://swift.org/builds/swift-4.2.1-release/ubuntu1804/swift-4.2.1-RELEASE/swift-4.2.1-RELEASE-ubuntu18.04.tar.gz 
+3. wget https://swift.org/builds/swift-4.2.1-release/ubuntu1804/swift-4.2.1-RELEASE/swift-4.2.1-RELEASE-ubuntu18.04.tar.gz
 
 4. tar xzf swift-4.2.1-RELEASE-ubuntu18.04.tar.gz
 
@@ -25,4 +25,4 @@ Este tutorial aborda os principios básicos da linguagem, se estiver utilizando 
 
 ### Partiu Programar !!!!
 
-https://github.com/fabriciocovalesci/Tutorial-Swift/issues/1#issue-516610420
+
