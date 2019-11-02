@@ -25,6 +25,4 @@ Este tutorial aborda os principios básicos da linguagem, se estiver utilizando 
 
 ### Partiu Programar !!!!
 
-![Uploading programador.gif…]()
-
-
+![programador](https://user-images.githubusercontent.com/40548641/68072485-1d809100-fd65-11e9-993c-4510142a61f1.gif)
