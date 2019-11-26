@@ -39,6 +39,6 @@ print("\nNotas com map -> \(alunosNotas1)")
 var alunosNotas2 = [4, 5, 7, 9, 6, 10, 3]
 alunosNotas2 = alunosNotas2.map {$0 + 1}
 
-print("\nNotas com map utilizando metodo sugar $ -> \(alunosNotas2) \u{1F42E}")
+print("\nNotas com map utilizando metodo sugar $ -> \(alunosNotas2)")
 
 // ##############################################

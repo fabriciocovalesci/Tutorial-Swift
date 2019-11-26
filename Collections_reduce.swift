@@ -36,3 +36,17 @@ soma = 0
 soma = alunosNotas2.reduce (0, +)
 
 print("\nReducao com reduce forma mais enxuta --> \(soma)")
+
+// Mais exemplos com Reduce
+
+// Reduz toda lista somando com um valor padrao ja definido "10"
+let items = [2.0,4.0,5.0,7.0]
+let total = items.reduce(10.0, +)
+print("\nValor reduzido + com valor padrao defifido --> \(total)")
+
+// lista de strings
+let codes = ["abc","def","ghi"]
+let text = codes.reduce("", +)
+print("\nUnindo strings da lista --> \(text)")
+
+
