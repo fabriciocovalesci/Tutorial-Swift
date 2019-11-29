@@ -9,7 +9,6 @@ print("\tTabuada do 7\n")
 print("_______________________\n")
 
 // for-in em ranges
-
 let tabuada = 7 
 for multiplicador in 1...10 {
     print("--> \(tabuada) x \(multiplicador) = \(tabuada * multiplicador)")

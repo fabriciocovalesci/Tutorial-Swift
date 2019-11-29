@@ -1,22 +1,21 @@
 
 // Classe criada
 class Lutador {
-
     var nome: String = String()
     var sexo : Character = " "
     var vida: Int = 100
     var poder: Int = 0
-    var movimentos: Array<String> = Array()
+    //var movimentos: Array<String> = Array()
     
     // Metodo da classe
     func cumprimentar() {
-        print("\nCumprimentos geral")
+        
       
     }
 
     // Metodo da classe
     func lutar(){
-        print("Lutar sem regras")
+        print("pedra \u{1F9F1} papel \u{1F4C4} tesoura \u{2702}")
         
     }
     
@@ -33,9 +32,7 @@ class Guerreiro: Lutador {
     }
 
     override func lutar() {
-        print(roupa)
-        print("Lutando nas regras do Judô")
-        
+       print("pedra \u{1F9F1} papel \u{1F4C4} tesoura \u{2702}")
     }
     
 }
@@ -64,7 +61,7 @@ haro.sexo = "M"
 haro.vida = 100
 haro.faixa = "Preto"
 haro.estilos = ["fff", "BBB", "KKK"]
-haro.movimentos = ["FAAA", "Gira"]
+
 
 haro.cumprimentar()
 haro.lutar()
@@ -79,7 +76,4 @@ jota.cumprimentar()
 jota.lutar()
 
 
-for _ in 1...3 {
-    print(Int.random(in: 1..<100))
-}
 
