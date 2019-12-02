@@ -33,6 +33,6 @@ print("\nAlunos reprovados \(reprovadosNotas)")
 // Verifica se a nota é >= a 5
 
 var alunosNotas2 = [4, 5, 7, 9, 6, 10, 3]
-alunosNotas2 = alunosNotas2.filter { $0 >= 5 }
+alunosNotas2 = alunosNotas2.map(filter { $0 >= 5 }.reduce(0, +))
 
-print("\nAlunos aprovados \(alunosNotas2) <-- Usando filter")
+print("\nAlunos aprovados \(alunosNotas2) ")

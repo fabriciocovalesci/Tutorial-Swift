@@ -18,7 +18,7 @@ print("\nAdicionado um vetor ao array ", cores)
 cores.insert("roxo", at: 1)
 print("\nSubstituido uma cor ", cores)
 // remove item da posicao 2
-//cores.removeAt(2)
+cores.removeAt(2)
 
 // remove o ultimo item
 cores.removeLast()

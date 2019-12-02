@@ -37,7 +37,9 @@ print("\nNotas com map -> \(alunosNotas1)")
 // ###############################################
 
 var alunosNotas2 = [4, 5, 7, 9, 6, 10, 3]
-alunosNotas2 = alunosNotas2.map {$0 + 1}
+
+// Eleva ao quadrado todos elementos
+alunosNotas2 = alunosNotas2.map {$0 * 2}
 
 print("\nNotas com map utilizando metodo sugar $ -> \(alunosNotas2)")
 
