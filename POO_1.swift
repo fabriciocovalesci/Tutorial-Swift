@@ -111,12 +111,23 @@ class Humano {
 
 //Classe Filha / SubClasse (Filha)
 class Atleta : Humano {
+    var habilidade: String()
+
+    init(var habilidade: String()){
+        self.habilidade = habilidade
+    }
+
+    // sobescrita da classe Pai
+    override andar(){
+        print("O atleta esta andando")
+    }
     
 }
 
 //Outra classe que herda as funcionalidade de Humano
 class Funcionario : Humano{
-    
+    var numero: Int()
+    var salario: Double()
 }
 
 //Crio um objeto da classe Humano

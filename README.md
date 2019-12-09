@@ -4,7 +4,7 @@
 
 Este tutorial aborda os principios básicos da linguagem, se estiver utilizando S.O. Ubuntu, logo abaixo tem passo a passo de como instalar a linguagem swift.
 
-## Como instalar swift no Ubuntu
+## Como instalar swift no Ubuntu 18.04
 
 
 1. sudo apt-get install clang
