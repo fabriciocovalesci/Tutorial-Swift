@@ -11,11 +11,11 @@ Este tutorial aborda os principios básicos da linguagem, se estiver utilizando 
 
 2. sudo apt-get install libcurl3 libpython2.7 libpython2.7-dev 
 
-3. wget https://swift.org/builds/swift-4.2.1-release/ubuntu1804/swift-4.2.1-RELEASE/swift-4.2.1-RELEASE-ubuntu18.04.tar.gz
+3. wget https://swift.org/builds/swift-5.0-release/ubuntu1804/swift-5.0-RELEASE/swift-5.0-RELEASE-ubuntu18.04.tar.gz
 
-4. tar xzf swift-4.2.1-RELEASE-ubuntu18.04.tar.gz
+4. tar xzf swift-5.0-RELEASE/swift-5.0-RELEASE-ubuntu18.04.tar.gz
 
-5. sudo mv swift-4.2.1-RELEASE-ubuntu18.04 /usr/share/swift
+5. sudo mv swift-5.0-RELEASE-ubuntu18.04 /usr/share/swift
 
 6. echo "export PATH=/usr/share/swift/usr/bin:$PATH" >> ~/.bashrc
 

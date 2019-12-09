@@ -77,25 +77,25 @@ class Empresa{
 var petrobras: Empresa? = Empresa(cnpj: "3299420424-24", nomeFantasia: "BR", faturamentoAnual: 2_000_000)
 
 
-class Abastecer{
-    var contador: Int = Int(){
-        willSet(novaContagem){
-            print("Abastecer \(novaContagem) litros")
-        }
-        didSet{
-            var novoValor = oldValue
+// class Abastecer{
+//     var contador: Int = Int(){
+//         willSet(novaContagem){
+//             print("Abastecer \(novaContagem) litros")
+//         }
+//         didSet{
+//             var novoValor = oldValue
             
-            if contador > novoValor{
-                print("Abasteceu \(contador + novoValor) litros")
-            }
-        }
-    }
-}
+//             if contador > novoValor{
+//                 print("Abasteceu \(contador + novoValor) litros")
+//             }
+//         }
+//     }
+// }
 
-let abastecer = Abastecer()
-abastecer.contador = 30
-abastecer.contador = 50
-abastecer.contador = 45
+// let abastecer = Abastecer()
+// abastecer.contador = 30
+// abastecer.contador = 50
+// abastecer.contador = 45
 
 
 //Classe Pai / SuperClasse (Humano)
