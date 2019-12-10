@@ -97,6 +97,13 @@ var petrobras: Empresa? = Empresa(cnpj: "3299420424-24", nomeFantasia: "BR", fat
 // abastecer.contador = 50
 // abastecer.contador = 45
 
+// Protocolos
+protocol Calculo {
+    var nome: String { get }
+    
+    func calculo()
+}
+
 
 //Classe Pai / SuperClasse (Humano)
 class Humano {
@@ -117,11 +124,10 @@ class Atleta : Humano {
         self.habilidade = habilidade
     }
 
-    // sobescrita da classe Pai
+    // sobrescrita da classe Pai
     override andar(){
         print("O atleta esta andando")
-    }
-    
+    } 
 }
 
 //Outra classe que herda as funcionalidade de Humano
