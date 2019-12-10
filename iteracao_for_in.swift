@@ -60,7 +60,7 @@ for caracter in "Swift"{
     
 }
 
-/*
+
 // for-in com condicao-incremental
 print("Valor usado apenas dentro do for-in\n")
 
@@ -81,4 +81,3 @@ for i = 0 ; i < 3; i++ {
 print("\nO bloco executou \(i)")
 
 print("\n_______________________\n")
-*/

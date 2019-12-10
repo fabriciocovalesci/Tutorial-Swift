@@ -6,3 +6,5 @@ var idade = 18
 assert(idade >= 0, "Idade não pode ser menor que zero")
 
 print("\nTeste passou ")
+
+
